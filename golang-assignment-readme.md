@@ -141,18 +141,7 @@ Body:
 │   └── utils
 │       └── jwt.go            # JWT token utilities
 └── .env                      # Environment variables
-```
 
-### High-Level Architecture Diagram
-
-```mermaid
-graph TD;
-    User -->|Upload Resume| Backend
-    Backend -->|Parse Resume| Gemini-API
-    Backend -->|Save Parsed Data| PostgreSQL
-    PostgreSQL -->|Fetch Data| Backend
-    Backend -->|Response| User
-```
 
 ## Technologies Used
 - **Go**: Programming language
