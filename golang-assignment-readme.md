@@ -141,7 +141,7 @@ Body:
 │   └── utils
 │       └── jwt.go            # JWT token utilities
 └── .env                      # Environment variables
-
+```
 
 ## Technologies Used
 - **Go**: Programming language
