@@ -1,6 +1,6 @@
 # GolangAssignment
 
-GolangAssignment is a web-based application that is built using Go and the Gin framework for the backend.
+GolangAssignment is a web-based application that allows users to upload resumes, which are parsed using a Large Language Model (LLM) like Gemini-1.5-pro. The parsed information is stored in a PostgreSQL database. This application is built using Go and the Gin framework for the backend.
 
 ## Table of Contents
 - [Features](#features)
@@ -18,6 +18,7 @@ GolangAssignment is a web-based application that is built using Go and the Gin f
 - **Resume Upload**: Users can upload resumes in PDF or DOCX format.
 - **Resume Parsing**: The system parses the resumes to extract information such as name, education, experience, skills, and contact details.
 - **Database Integration**: The parsed data is stored in a PostgreSQL database.
+- **API Integration**: Uses Gemini-1.5-pro LLM for resume parsing.
 - **Secure**: Authentication and authorization using JWT tokens.
 
 ## Prerequisites
@@ -42,7 +43,7 @@ Ensure you have the following installed:
    DB_NAME=your_db_name
    DB_HOST=localhost
    DB_PORT=5432
-   API_KEY=api_key
+   API_KEY=your_gemini_api_key
    ```
 
 3. Install dependencies:
@@ -148,6 +149,7 @@ Body:
 - **Gin**: Web framework
 - **PostgreSQL**: Database
 - **Docker**: For containerization
+- **Gemini-1.5-pro**: Large Language Model API for resume parsing
 - **JWT**: Authentication tokens
 
 ## Contributing
