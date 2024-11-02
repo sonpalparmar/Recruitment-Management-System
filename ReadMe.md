@@ -1,4 +1,4 @@
-# 🚀 GolangAssignment - Advanced Job Application System
+# 🚀 Advanced Job Application System
 
 [![Go Version](https://img.shields.io/badge/Go-1.20+-00ADD8?style=for-the-badge&logo=go)](https://golang.org/doc/go1.20)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14+-336791?style=for-the-badge&logo=postgresql)](https://www.postgresql.org/)
