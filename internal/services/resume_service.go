@@ -29,7 +29,7 @@ func ProcessResume(apiKey, filePath string) (*ResumeData, error) {
 	defer file.Close()
 
 	// Prepare the request
-	url := "https://api.apilayer.com/resume_parser/upload"
+	url := "http://localhost:3000/resume_parser/upload"
 	var requestBody bytes.Buffer
 	writer := multipart.NewWriter(&requestBody)
 
